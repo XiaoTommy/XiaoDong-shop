@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>百度编辑器的引入</title>
+</head>
+<body>
+	<pre>
+		学习步骤
+		1.引入
+			引入配置文件  ueditor.config.js
+			引入编辑器源码文件  ueditor.all.js
+			实例化编辑器 UE.getEditor
+		2.个性化配置
+			在实例化的编辑器中，整合toolbars
+		3.与自己的系统整合
+	</pre>
+	<form action="02.php" method='post'>
+		<textarea id="goods_desc" name="goods_desc">
+		你好，这是第一个
+		</textarea>
+		<input type="submit" value='提交'>
+		<input type="button" value='获取编辑器内容(ajax)' onclick="t1();">
+
+	</form>
+	<!-- 配置文件 -->
+	<script type="text/javascript" src="ueditor.config.js" ></script>
+	<!-- 编辑器源码文件 -->
+	<script type="text/javascript" src="ueditor.all.js" ></script>
+	<!-- 实例化编辑器 -->
+	<script type="text/javascript">
+		var editor = UE.getEditor('goods_desc',{
+			initialContent:'你好，张晓东',
+			toolbars: [
+			    ['fullscreen', 'source', 'undo', 'redo', 'scrawl'],
+			    ['bold', 'italic', 'underline', 'fontborder', 'strikethrough', 'superscript', 'subscript', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc']
+			]
+		});
+
+	function t1(){
+		alert(editor.getContent());
+		alert(editor.getContentTxt());
+	}
+
+
+	</script>
+
+
+
+
+
+</body>
+</html>

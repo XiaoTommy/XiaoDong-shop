@@ -1,0 +1,1070 @@
+use boolshop
+set names utf8
+select * from goods where goods_id = 19
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=19
+use boolshop
+set names utf8
+select * from goods where goods_id = 19
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from categery where cat_id=9
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (9) order by add_time limit 5
+use boolshop
+set names utf8
+select * from goods where goods_id = 19
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 19
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=19
+use boolshop
+set names utf8
+select * from goods where goods_id = 19
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from categery where cat_id=9
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (9) order by add_time limit 5
+use boolshop
+set names utf8
+select * from categery where cat_id=9
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (9) order by add_time limit 5
+use boolshop
+set names utf8
+select * from categery where cat_id=2
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (2) order by add_time limit 5
+use boolshop
+set names utf8
+select * from goods where goods_id = 3
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 3
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=19
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=3
+use boolshop
+set names utf8
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=19
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=3
+use boolshop
+set names utf8
+select count(*) from orderinfo where order_sn ='OI2016101187823'
+insert into orderinfo(zone,reciver,email,address,zipcode,tel,mobile,building,best_time,payment,add_time,order_amount,user_id,username,order_sn) values ('山西','自傲的','maildocgaojingru@163.com','降低','','156563','','kid','','4','1476158301','1780','0','匿名用户','OI2016101187823')
+insert into ordergoods(order_id,order_sn,goods_id,goods_name,goods_number,shop_price,subtotal) values ('5','OI2016101187823','19','单侧镶钻漆皮中跟正装鞋/黑色','2','145.00','290')
+update goods set goods_number = goods_number - 2 where goods_id = 19
+insert into ordergoods(order_id,order_sn,goods_id,goods_name,goods_number,shop_price,subtotal) values ('5','OI2016101187823','3','两扣平驳领棕色格纹男士休闲单西D6959','1','1490.00','1490')
+update goods set goods_number = goods_number - 1 where goods_id = 3
+use boolshop
+set names utf8
+use boolshop
+set names utf8
+select goods_id, goods_name, shop_price, market_price, thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 5
+use boolshop
+set names utf8
+select goods_id, goods_name, shop_price, market_price, thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 5
+use boolshop
+set names utf8
+select * from categery where cat_id=0
+use boolshop
+set names utf8
+select goods_id, goods_name, shop_price, market_price, thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 5
+use boolshop
+set names utf8
+select goods_id, goods_name, shop_price, market_price, thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 5
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 5
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 0,5
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 4,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 6,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+use boolshop
+set names utf8
+select goods_id, goods_name, shop_price, market_price, thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 8,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 8,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 4,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 28,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 32,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 36,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 40,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 44,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 48,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 52,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 56,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 58,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 4,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 4,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 6,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 6,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 4,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 4,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 6,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 6,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 4,2
+use boolshop
+set names utf8
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 4,2
+use boolshop
+set names utf8
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,2
+use boolshop
+set names utf8
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 2,2
+use boolshop
+set names utf8
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 4,2
+use boolshop
+set names utf8
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 6,2
+use boolshop
+set names utf8
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,2
+use boolshop
+set names utf8
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 2,2
+use boolshop
+set names utf8
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 4,2
+use boolshop
+set names utf8
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 6,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (4,5,6)
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 6,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (4,5,6)
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (4,5,6)
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 2,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (4,5,6)
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 4,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (4,5,6)
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 6,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (4,5,6)
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (7,8,9)
+select * from categery where cat_id=7
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (7,8,9) order by add_time limit 0,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (4,5,6)
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (4,5,6)
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 2,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (4,5,6)
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 4,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (4,5,6)
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 6,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select count(*) from goods where goods_sn='BL2016101242170'
+insert into goods(goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_best,is_on_sale,goods_brief,goods_id,is_hot,is_new,add_time,ori_img,goods_img,thumb_img) values ('编辑器','BL2016101242170','2','555','2563','<p>你好，这是<strong>一款编辑器<img src=\"/ueditor/php/upload/image/20161012/1476249377656234.jpg\" title=\"1476249377656234.jpg\" alt=\"一片自带五官的树叶.jpg\"/></strong></p>','258','1','1','1','1222222222222222222222','0','0','0','1476249587','data/images/201610/12/w7naih.jpg','data/images/201610/12/goods_w7naih.jpg','data/images/201610/12/thumb_w7naih.jpg')
+use boolshop
+set names utf8
+select goods_id, goods_name, shop_price, market_price, thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (1,2,3)
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (2)
+select * from categery where cat_id=2
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (2) order by add_time limit 0,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (2)
+select * from categery where cat_id=2
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (2) order by add_time limit 0,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (2)
+select * from categery where cat_id=2
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (2) order by add_time limit 2,2
+use boolshop
+set names utf8
+select * from goods where goods_id = 27
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+use boolshop
+set names utf8
+select goods_id, goods_name, shop_price, market_price, thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+use boolshop
+set names utf8
+select * from goods where goods_id = 1
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select user_id, username, email, passwd from user where username='123456'
+use boolshop
+set names utf8
+select * from goods where goods_id = 1
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 1
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 1
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=1
+use boolshop
+set names utf8
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=1
+use boolshop
+set names utf8
+select count(*) from orderinfo where order_sn ='OI2016101227734'
+insert into orderinfo(zone,reciver,email,address,zipcode,tel,mobile,building,best_time,payment,add_time,order_amount,user_id,username,order_sn) values ('北京','张三','maildocgaojingru@163.com','长治','','125635','','全文为为','','4','1476261790','799','5','123456','OI2016101227734')
+insert into ordergoods(order_id,order_sn,goods_id,goods_name,goods_number,shop_price,subtotal) values ('6','OI2016101227734','1','两扣双开衩平驳头斜兜男士西服套装3312/纯藏青色人字纹/羊毛+涤纶','1','799.00','799')
+update goods set goods_number = goods_number - 1 where goods_id = 1
+use boolshop
+set names utf8
+select count(*) from orderinfo where order_sn ='OI2016101266323'
+insert into orderinfo(zone,reciver,email,address,zipcode,tel,mobile,building,best_time,payment,add_time,order_amount,user_id,username,order_sn) values ('北京','张三','maildocgaojingru@163.com','长治','','125635','','全文为为','','4','1476261919','0','5','123456','OI2016101266323')
+use boolshop
+set names utf8
+select count(*) from orderinfo where order_sn ='OI2016101259286'
+insert into orderinfo(zone,reciver,email,address,zipcode,tel,mobile,building,best_time,payment,add_time,order_amount,user_id,username,order_sn) values ('北京','张三','maildocgaojingru@163.com','长治','','125635','','全文为为','','4','1476261959','0','5','123456','OI2016101259286')
+use boolshop
+set names utf8
+use boolshop
+set names utf8
+use boolshop
+set names utf8
+select count(*) from orderinfo where order_sn ='OI2016101237074'
+insert into orderinfo(zone,reciver,email,address,zipcode,tel,mobile,building,best_time,payment,add_time,order_amount,user_id,username,order_sn) values ('北京','张三','maildocgaojingru@163.com','长治','','125635','','全文为为','','4','1476262075','0','5','123456','OI2016101237074')
+use boolshop
+set names utf8
+use boolshop
+set names utf8
+select * from goods where goods_id = 1
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=1
+use boolshop
+set names utf8
+select * from goods where goods_id = 1
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select goods_id, goods_name, shop_price, market_price, thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=1
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+use boolshop
+set names utf8
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=1
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+use boolshop
+set names utf8
+select count(*) from orderinfo where order_sn ='OI2016101267665'
+insert into orderinfo(zone,reciver,email,address,zipcode,tel,mobile,building,best_time,payment,add_time,order_amount,user_id,username,order_sn) values ('北京','张三','maildocgaojingru@163.com','长治','','1342569','','GD','','4','1476262113','1366','5','123456','OI2016101267665')
+insert into ordergoods(order_id,order_sn,goods_id,goods_name,goods_number,shop_price,subtotal) values ('10','OI2016101267665','1','两扣双开衩平驳头斜兜男士西服套装3312/纯藏青色人字纹/羊毛+涤纶','1','799.00','799')
+update goods set goods_number = goods_number - 1 where goods_id = 1
+insert into ordergoods(order_id,order_sn,goods_id,goods_name,goods_number,shop_price,subtotal) values ('10','OI2016101267665','7','枪驳大领面后开叉短款两扣女士正装','1','567.00','567')
+update goods set goods_number = goods_number - 1 where goods_id = 7
+use boolshop
+set names utf8
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+use boolshop
+set names utf8
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+use boolshop
+set names utf8
+select count(*) from orderinfo where order_sn ='OI2016101283347'
+insert into orderinfo(zone,reciver,email,address,zipcode,tel,mobile,building,best_time,payment,add_time,order_amount,user_id,username,order_sn) values ('北京','全文','maildocgaojingru@163.com','长治','','125635','','全文为为','','4','1476262221','567','5','123456','OI2016101283347')
+insert into ordergoods(order_id,order_sn,goods_id,goods_name,goods_number,shop_price,subtotal) values ('11','OI2016101283347','7','枪驳大领面后开叉短款两扣女士正装','1','567.00','567')
+update goods set goods_number = goods_number - 1 where goods_id = 7
+use boolshop
+set names utf8
+select * from goods where goods_id = 27
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (1,2,3)
+select * from categery where cat_id=1
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (4,5,6)
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,2
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+use boolshop
+set names utf8
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+use boolshop
+set names utf8
+select count(*) from orderinfo where order_sn ='OI2016101230341'
+insert into orderinfo(zone,reciver,email,address,zipcode,tel,mobile,building,best_time,payment,add_time,order_amount,user_id,username,order_sn) values ('北京','全文','maildocgaojingru@163.com','长治','','125635','','GD','','4','1476263027','567','5','123456','OI2016101230341')
+insert into ordergoods(order_id,order_sn,goods_id,goods_name,goods_number,shop_price,subtotal) values ('12','OI2016101230341','7','枪驳大领面后开叉短款两扣女士正装','1','567.00','567')
+update goods set goods_number = goods_number - 1 where goods_id = 7
+use boolshop
+set names utf8
+use boolshop
+set names utf8
+select goods_id, goods_name, shop_price, market_price, thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+use boolshop
+set names utf8
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+use boolshop
+set names utf8
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+use boolshop
+set names utf8
+select count(*) from orderinfo where order_sn ='OI2016101264271'
+insert into orderinfo(zone,reciver,email,address,zipcode,tel,mobile,building,best_time,payment,add_time,order_amount,user_id,username,order_sn) values ('北京','张三','maildocgaojingru@163.com','长治','','125635','','全文为为','','4','1476263495','1134','5','123456','OI2016101264271')
+insert into ordergoods(order_id,order_sn,goods_id,goods_name,goods_number,shop_price,subtotal) values ('13','OI2016101264271','7','枪驳大领面后开叉短款两扣女士正装','2','567.00','1134')
+update goods set goods_number = goods_number - 2 where goods_id = 7
+use boolshop
+set names utf8
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+use boolshop
+set names utf8
+select * from goods where goods_id = 7
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (4,5,6)
+select * from categery where cat_id=4
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,2
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+select count(*) from goods where cat_id in (6)
+select * from categery where cat_id=6
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (6) order by add_time limit 0,2
+use boolshop
+set names utf8
+select * from goods where goods_id = 11
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where goods_id = 11
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=11
+use boolshop
+set names utf8
+select * from goods where goods_id = 11
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=11
+use boolshop
+set names utf8
+select * from goods where goods_id = 11
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=11
+use boolshop
+set names utf8
+select * from goods where goods_id = 11
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=11
+use boolshop
+set names utf8
+select * from goods where goods_id = 11
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=11
+use boolshop
+set names utf8
+select * from goods where goods_id = 11
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=11
+use boolshop
+set names utf8
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=7
+select goods_id, goods_name, thumb_img, shop_price, market_price from goods where goods_id=11
+use boolshop
+set names utf8
+select count(*) from orderinfo where order_sn ='OI2016101263975'
+insert into orderinfo(zone,reciver,email,address,zipcode,tel,mobile,building,best_time,payment,add_time,order_amount,user_id,username,order_sn) values ('北京','请求','maildocgaojingru@163.com','海淀','','我','','GD','','4','1476264069','819','5','123456','OI2016101263975')
+insert into ordergoods(order_id,order_sn,goods_id,goods_name,goods_number,shop_price,subtotal) values ('14','OI2016101263975','7','枪驳大领面后开叉短款两扣女士正装','1','567.00','567')
+update goods set goods_number = goods_number - 1 where goods_id = 7
+insert into ordergoods(order_id,order_sn,goods_id,goods_name,goods_number,shop_price,subtotal) values ('14','OI2016101263975','11','纯白斜条棉涤女士衬衫','6','42.00','252')
+update goods set goods_number = goods_number - 6 where goods_id = 11
+use boolshop
+set names utf8
+select goods_id, goods_name, shop_price, market_price, thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+use boolshop
+set names utf8
+select * from goods where goods_id = 8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select goods_id, goods_name, shop_price, market_price, thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+use boolshop
+set names utf8
+select goods_id, goods_name, shop_price, market_price, thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+use boolshop
+set names utf8
+select * from goods where goods_id = 0
+use boolshop
+set names utf8
+select goods_id, goods_name, shop_price, market_price, thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+use boolshop
+set names utf8
+select goods_id, goods_name, shop_price, market_price, thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id, cat_name, parent_id from categery
+select  goods_id, goods_name, shop_price, market_price, thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+use boolshop
+set names utf8
+select * from goods where is_delete=0
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select cat_id, cat_name, parent_id from categery
+use boolshop
+set names utf8
+select * from goods where is_delete=1
+use boolshop
+set names utf8
+select * from goods where is_delete=0
+use boolshop
+set names utf8
+select * from goods where is_delete=0
+use boolshop
+set names utf8
+select * from goods where is_delete=0
