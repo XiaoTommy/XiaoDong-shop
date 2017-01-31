@@ -1,10 +1,10 @@
-# bool-
-跟随燕十八老师自己做一个属于自己的MVC框架
+5天完成一个简易的MVC框架制作的商城
 1.第一天，写了一部分框架
+	
 	程序进入页面 		  index.php
 	框架初始化文件 	 init.php
 	连接数据库类 		  mysql.clss.php
-	记录日志类 			 log.class.php
+	记录日志类 		   log.class.php
 	
 	配置文件 			config.inc.php
 	接受配置文件数据 	conf.class.php
@@ -17,6 +17,7 @@
 2.第二天，写了后台栏目增删改查，和一部分商品增删改查类和方法
 	1.首先和后台html配合，修改href 和src（由于路径的关系）
 	2.然后契合后台html页面(只是连接)
+		
 		index.php 
 		left.php 
 		main.php 
@@ -30,6 +31,7 @@
 		GoodsModel.class.php(商品模型处理类，提供需要过滤的数组、提供需要自动填充的数组、提供需要自动验证格式的数组、回收站功能、自动创建货号功能、添加图片还没有做)
 
 	4.admin层处理信息
+		
 		cateadd.php（创建CatModel实例，显示页面，和html页面交互） 和 cateaddAct.php（接受检查数据，使用model中的add方法）
 		catedit.php(和html交互) 和cateditAct.php(接受检测数据，分析情况，调用model中的update方法)
 		catedel.php (接受数据，分析情况，调用model中的delete)
@@ -50,6 +52,7 @@
 
 	图片处理类
 		主要是运用GD库的知识，主要有 生成缩略图 和 添加水印 的功能，另外附赠了 验证码 功能
+			
 			1.创建画布 imagecreatefromjpeg(filename) 以图片作为画布
 					  imagecreatetruecolor(width, height)	纯色画布
 			2.创建颜料 imagecolorallocate(image, red, green, blue)
@@ -66,6 +69,7 @@
 						imagejpeg(image,'./xx.jpeg' )
 			6.销毁画布 imagedestroy(image)
 		添加水印就是 图片复制 + 图片透明化
+			
 			复制 imagecopy(dst_im, src_im, dst_x, dst_y, src_x, src_y, src_w, src_h)
 			透明化 imagecopymerge(dst_im, src_im, dst_x, dst_y, src_x, src_y, src_w, src_h, pct)
 			缩略图 imagecopyresampled(dst_image, src_image, dst_x, dst_y, src_x, src_y, dst_w, dst_h, src_w, src_h)
