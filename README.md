@@ -9,6 +9,7 @@
 	接受配置文件数据--conf.class.php;
 	连接数据库抽象类--db.class.php;
 	常用函数类--lib_base.php;  //为了使得日志记录整齐规范
+	
 第二天，写了后台栏目增删改查，和一部分商品增删改查类和方法<br />
 	1.首先和后台html配合，修改href 和src（由于相对路径和绝对路径的关系）<br />
 	2.然后契合后台html页面(主要是连接)<br />
@@ -18,11 +19,13 @@
 		主体内容--main.php；
 		顶部栏--top.php；
 		底部内容--drag.php；
+		
 	3.Model层处理信息<br />
 	
 		Model.class.php (模型处理类，作用是：1.后台的数据管理 2.自动过滤 3.自动填充 4.自动验证格式 5.报错 6.增删改查功)
 		CateModel.class.php(栏目模型处理类，作用是：1.获取表全部数据 2.获取一行数据 3.递归查找子孙树 4.迭代查找家谱树 5.删除栏目 6.更新栏目)
 		GoodsModel.class.php(商品模型处理类，作用是：1.提供需要过滤的数组 2.提供需要自动填充的数组 3.提供需要自动验证格式的数组 4.回收站功能 5.自动创建货号功能 6.添加图片)
+		
 	4.admin层处理信息<br />
 	
 		cateadd.php 和 cateaddAct.php（接受检测数据，使用model中的add方法）
@@ -34,6 +37,7 @@
 		goodsadd.php  和 goodsaddAct.php（实例化GoodsModel，调用Model中的自动过滤，填充，验证格式、自动添加货号）
 		goodstrash.php(商品回收站页面)
 		goods.php（实例化GoodsModel，点击时查看商品数据）
+		
 第3天 常用的工具类 <br />
 	1.文件上传类<br />
 		文件上传类通过 $_FILES 这个全局变量通过 POST 过来的文件的绝对地址获取文件的内容，使用move_uploaded_file 来实现文件的移动；<br />
@@ -55,6 +59,7 @@
 				header('content-type: image/jpeg');
 				imagejpeg(image,'./xx.jpeg' )
 			6.销毁画布 imagedestroy(image)
+			
 第4天 常用的工具类<br />
 	3.分页类<br />
 		主要是把商品总条数、每页条数、当前页这关系搞清楚，然后要确保地址栏原始信息的保存，只能改变页码，之前的不能改变。<br />
